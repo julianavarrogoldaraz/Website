@@ -86,7 +86,7 @@ html{
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     text-align: center;
-    margin: 40px 0px;
+    margin: 35px 0px;
 }
 
 .btn{
@@ -96,13 +96,15 @@ html{
     color:  white;
     outline: none;
     transition: .6s ease;
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 .btn:hover{
     cursor: pointer;
     background-color: white;
     color: black;
-    box-shadow: 0 0 2px white, 0 0 5px white, 0 0 10px white;
+    /* box-shadow: 0 0 2px white, 0 0 5px white, 0 0 10px white;*/
     font-weight: bold;
 }
 
@@ -163,9 +165,11 @@ html{
 }
 
 .gallery img{
-    width: 360px;
-    height: 240px;
-    margin: 40px;
+    width: 380px;
+    height: 260px;
+    margin: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 
@@ -196,8 +200,9 @@ html{
     margin: 10px;
     align-items: center;
     text-align: justify;
-    text-
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 15px;
     /*background: linear-gradient(to top,#cccfd1, white 100%);*/
     background-size: 100% 200%;
@@ -216,7 +221,7 @@ html{
     width: 80px;
     height: 80px;
     background-color: white;
-    padding: 10px;
+    padding: 0px;
 }
 
 /* Contact Section */
@@ -259,6 +264,9 @@ html{
     margin: 40px;
     border: none;
     outline: none;
+    font-family: 'Roboto', sans-serif;
+    color: #19646E;
+    font-weight: 1000;
 }
 
 #send:hover{
