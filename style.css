@@ -18,7 +18,7 @@ html{
     background-color:white;
     position: sticky;
     top: 0;
-    max-height: 72px;
+    max-height: 63px;
 }
 
 .navbar ul{
@@ -178,7 +178,6 @@ html{
 #interests{
     display: flex;
     flex-direction: column;
-    padding: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
