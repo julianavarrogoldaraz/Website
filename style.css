@@ -19,6 +19,7 @@ html{
     position: sticky;
     top: 0;
     max-height: 63px;
+    
 }
 
 .navbar ul{
@@ -58,6 +59,7 @@ html{
     justify-content: center;
     align-items: center;
     color:white;
+
 }
 
 #home::before{
@@ -157,6 +159,13 @@ html{
     padding: 20px;
 }
 
+.click{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #73000F;
+    padding: 0px;
+}
 .gallery{
     display: flex;
     flex-wrap: wrap;
@@ -239,6 +248,7 @@ html{
     box-sizing: border-box;
     align-items: center;
     margin: 20px 0px;
+    font-family: "Roboto", sans-serif;
 }
 
 .input{
@@ -247,6 +257,8 @@ html{
     width: 30%;
     border: none;
     outline: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
 }
 
 #msg{
@@ -255,6 +267,8 @@ html{
     margin: 15px;
     border: none;
     outline: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
 }
 
 #send{
@@ -266,9 +280,11 @@ html{
     font-family: 'Roboto', sans-serif;
     color: #19646E;
     font-weight: 1000;
+    font-family: "Roboto", sans-serif;
 }
 
 #send:hover{
     cursor: pointer;
     box-shadow: 0 0 5px white;
+    font-family: "Roboto", sans-serif;
 }
